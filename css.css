@@ -1,0 +1,48 @@
+.notification {
+    float: right;
+    margin: 5px 0 10px 20px;
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    clear: both;
+    opacity: 0.7;
+}
+
+.closing {
+    height: 30px;
+    width: 30px;
+    background-color: #ff406e;
+    border-radius: 15px;
+    position: absolute;
+    margin: 10px 0 0 360px;
+    text-align: center;
+    font-size: 23px;
+}
+
+#notification-error {
+    background-color: red;
+}
+
+#notification-warning {
+    background-color: yellow;
+}
+
+#notification-success {
+    background-color: green;
+}
+
+#notification-info {
+    background-color: #c1b7ff;
+}
+
+.caption {
+    position: absolute;
+    margin: 0 0 0 20px;
+    font-size: 50px;
+}
+
+.notification-text {
+    position: absolute;
+    margin: 40px 0 0 20px;
+    font-size: 30px;
+}

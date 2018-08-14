@@ -9,14 +9,14 @@
 }
 
 .closing {
+    border: 2px double black;
     height: 30px;
     width: 30px;
-    background-color: #ff406e;
     border-radius: 15px;
     position: absolute;
     margin: 10px 0 0 360px;
     text-align: center;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 #notification-error {

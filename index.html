@@ -7,52 +7,9 @@
     <script src="toast-notification.js"></script>
 </head>
 <body>
-<div class="notification" id="notification-info">
-    <p class="caption">
-        Info
-    </p>
-    <p class="notification-text">
-        very important info
-    </p>
-    <div class="closing">
-        x
-    </div>
-</div>
-
-<div class="notification" id="notification-error">
-    <p class="caption">
-        Error
-    </p>
-    <p class="notification-text">
-        Oops, something is wrong
-    </p>
-    <div class="closing">
-        x
-    </div>
-</div>
-
-<div class="notification" id="notification-warning">
-    <p class="caption">
-        Warning
-    </p>
-    <p class="notification-text">
-        Here the error occurred
-    </p>
-    <div class="closing">
-        x
-    </div>
-</div>
-
-<div class="notification" id="notification-success">
-    <p class="caption">
-        Success
-    </p>
-    <p class="notification-text">
-        Everything is fine
-    </p>
-    <div class="closing">
-        x
-    </div>
-</div>
+<button onclick="create_warning()">Warning</button>
+<button onclick="create_error()">Error</button>
+<button onclick="create_info()">Info</button>
+<button onclick="create_success()">Success</button>
 </body>
 </html>
